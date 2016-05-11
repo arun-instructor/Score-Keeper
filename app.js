@@ -25,6 +25,7 @@ $(document).ready(function() {
     });
 
     $(document).on("click", "#submit-custom-score", function() {
+        //Parse score into an integer
         var newScore = $("#custom-score").val();
         var newNumberScore = parseInt(newScore);
 
